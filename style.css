@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+    background-color: #F6F6F6;
 }
 
 .container {
@@ -34,6 +35,15 @@ html, body {
   text-align: center; 
   padding: 20px 30px; 
   margin: 0; 
+}
+
+.header li a {
+    color: #fff;
+    text-decoration:none;
+}
+
+.header li a:hover {
+    color:black;
 }
 
 .header .main {
@@ -92,11 +102,137 @@ html, body {
   background-color: #e52364; 
   padding: 20px; 
 } 
-
+.social li {
+    display: inline;
+    padding:8px;
+    text-align:center;
+}
+.social ul {
+    text-align: center;
+}
 .copy {
   padding-top: 10px; 
 } 
 
 .nav li a {
   color: #fff; 
+}
+/* About */
+.about {
+    max-width: 90%;
+    text-align:left;
+}
+.about p {
+    font-size:1.5em;
+}
+.about img {
+    margin-top:65px;
+}
+.about h2 {
+    margin-top:60px;
+    
+}
+
+/*Animals */
+.main {
+   margin-top:100px; 
+}
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+.modal-btn {
+    text-align:center;
+}
+.modal-btn button{
+    margin-top:0px;
+}
+.modal-title {
+    text-align:center;
+    font-size:2.5em;
+}
+.modal-body p {
+    margin-top:40px;
+    font-size:1.5em;
+}
+/*Blog */
+.standard-post-format {
+  overflow: hidden;
+}
+.the-post {
+  padding:35px 50px 50px;
+}
+.the-post .post-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+.the-post .post-title {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.5;
+}
+.post_content {
+  margin: 15px 0 0;
+}
+.post-items {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 1px 1px 10px #e5e5e5;
+  padding: 28px 28px 35px;
+  margin:0 0 50px;
+  overflow:hidden;
+}
+.post-items .post-meta-elements {
+	margin:0 0 22px; 
+}
+.post-title > h2 {
+  line-height: 37px;
+  margin: 0 0 18px;
+}
+
+.meta-post-author, .meta-post-date, .meta-post-cat, .meta-post-commetns {
+  display: inline-block;
+  margin: 0 16px 0 0;
+}
+.post-items .meta-post-author, .post-items .meta-post-date, .post-items .meta-post-cat, .post-items .meta-post-commetns {
+  margin: 0 20px 0 0;
+}
+.post-meta-elements, .post-meta-elements a {
+  color: #767676;
+  display: inline-block;
+}
+.post-meta-elements .fa {
+  margin: 0 6px 0 0;
+  transition-duration: 0.3s;
+}
+.post-meta-elements a:hover, .post-meta-elements a:hover .fa {
+  color: #19bc9b;
+}
+.post-meta-elements, .post-meta-elements a, .post-meta-elements .fa {
+	font-size:13px;
+}
+.grid-box {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 1px 0 0 rgba(238, 238, 238, 0.6);
+  border-radius:6px;
+  overflow:hidden;
+  margin-bottom:40px;
+}
+.input-group .btn {
+    width:50px;
+    height:35px;
+    margin-top:0px;
+}
+button.btn.btn-lg {
+    margin-top:0px;
+}
+.the-post img {
+    width:100%;
+}
+.well {
+    margin-top:36px;
+}
+.search-animals .btn {
+    padding: 0px 0px;
+    width:90px;
 }
